@@ -56,3 +56,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # job schedule
 gem 'crono'
+
+# Email through SES
+gem 'aws-ses', '~> 0.4.4', require: 'aws/ses'
